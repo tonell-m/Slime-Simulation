@@ -34,6 +34,11 @@
 		}
 
 
+		public static T[] GetBufferData<T>(ComputeBuffer buffer) {
+			T[] dataArray = new T[buffer.count];
+			buffer.GetData(dataArray);
+			return dataArray;
+		}
 
 		public static void CreateStructuredBuffer<T>(ref ComputeBuffer buffer, int count)
 		{

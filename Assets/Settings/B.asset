@@ -13,21 +13,16 @@ MonoBehaviour:
   m_Name: B
   m_EditorClassIdentifier: 
   stepsPerFrame: 2
-  width: 1920
-  height: 1080
-  numAgents: 25000
-  spawnMode: 2
-  trailWeight: 3
-  decayRate: 0.5
-  diffuseRate: 3
+  width: 192
+  height: 108
+  numAgents: 250
+  spawnMode: 3
+  trailWeight: 4
+  decayRate: 0.6614173
+  diffuseRate: 9
   speciesSettings:
-  - moveSpeed: 50
-    turnSpeed: 30
+  - moveSpeed: 40
+    turnSpeed: -3
     sensorAngleSpacing: 45
-    sensorOffsetDst: 20
-    sensorSize: 1
-  - moveSpeed: 50
-    turnSpeed: -90
-    sensorAngleSpacing: 112
-    sensorOffsetDst: 30
+    sensorOffsetDst: 47.244095
     sensorSize: 1

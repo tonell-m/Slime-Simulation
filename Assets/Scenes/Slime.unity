@@ -237,9 +237,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   compute: {fileID: 7200000, guid: a0aea66b8c503e748bb334583d5db67c, type: 3}
   drawAgentsCS: {fileID: 7200000, guid: 9d6969cce8474ed4899115f5d816b0a5, type: 3}
-  settings: {fileID: 11400000, guid: 0367b3dddb285494bbb8c9e43002e188, type: 2}
+  settings: {fileID: 11400000, guid: 859b4d618060cb54eb6ce1a49fdfc9dd, type: 2}
   showAgentsOnly: 0
-  filterMode: 1
+  filterMode: 2
   format: 48
   trailMap: {fileID: 0}
   diffusedTrailMap: {fileID: 0}
@@ -401,3 +401,46 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+--- !u!1 &1871274961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1871274963}
+  - component: {fileID: 1871274962}
+  m_Layer: 0
+  m_Name: MIDIListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1871274962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871274961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a079855cbb3434d9b834a0478e5fbdd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1871274963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871274961}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
